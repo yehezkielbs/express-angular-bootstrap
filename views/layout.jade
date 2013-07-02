@@ -2,8 +2,8 @@ doctype 5
 html(ng-app='App')
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/all.css')
-    script(src='/javascripts/all.js')
+    != css('app')
+    != js('app')
   body
 
     .navbar.navbar-inverse.navbar-static-top

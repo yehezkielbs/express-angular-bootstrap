@@ -1,3 +1,9 @@
+//=require angular/angular.js
+//=require angular/angular-resource.js
+//=require controllers.js
+//=require services.js
+//=require directives.js
+
 var App = angular.module('App', ['SampleServices']);
 
 App.config(['$routeProvider', function ($routeProvider) {
