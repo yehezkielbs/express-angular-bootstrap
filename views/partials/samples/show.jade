@@ -1,0 +1,8 @@
+.sample
+  {{ sample.name }}
+  {{ sample.description }}
+
+.actions
+  a(href='#/samples') [back to list]
+  a(href='#/samples/{{sample._id}}/edit') [edit]
+  a(href='#', ng-click='remove()') [delete]

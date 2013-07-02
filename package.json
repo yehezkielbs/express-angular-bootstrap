@@ -1,0 +1,22 @@
+{
+  "name": "Sample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "express": "3.3.x",
+    "express-resource": "1.0.x",
+    "jade": "0.32.x",
+    "less-middleware": "0.1.x",
+    "mongoose": "3.6.x",
+    "bootstrap": "git+https://github.com/twitter/bootstrap.git#v2.3.2",
+    "config": "0.4.x",
+    "async": "0.2.x",
+    "lodash": "1.3.x",
+    "connect-assetmanager": "0.0.x",
+    "connect-assetmanager-handlers": "0.0.x",
+    "JQDeferred": "1.9.x"
+  }
+}

@@ -1,0 +1,8 @@
+.samples
+  ul
+    li(ng-repeat='sample in samples')
+      {{ sample.name }} {{ sample.description }}
+      a(href='#/samples/{{sample._id}}') [view]
+      a(href='#/samples/{{sample._id}}/edit') [edit]
+
+a(href='#/samples/new') Add a new sample

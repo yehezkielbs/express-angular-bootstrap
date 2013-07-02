@@ -1,0 +1,20 @@
+doctype 5
+html(ng-app='App')
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/all.css')
+    script(src='/javascripts/all.js')
+  body
+
+    .navbar.navbar-inverse.navbar-static-top
+      .navbar-inner
+        .container
+          .nav-collapse.collapse
+            ul.nav
+              li
+                a(href='/#/') Home
+              li
+                a(href='/#/samples') Sample
+
+    .content.main.container
+      block content
